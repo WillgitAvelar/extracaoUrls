@@ -28,7 +28,7 @@ def save_to_html(content, filename="urls.html"):
         file.write(content)
 
 if __name__ == "__main__":
-    base_url = "https://www.litoralverde.com.br"  # Substitua pelo URL do site desejado
+    base_url = "cole aqui a url do site"  # Substitua pelo URL do site desejado
     urls = extract_urls(base_url)
     html_content = generate_html(urls)
     save_to_html(html_content)
